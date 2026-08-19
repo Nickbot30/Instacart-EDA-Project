@@ -96,7 +96,7 @@ Code
 instacart-eda/
     ├── instacart_analysis.ipynb
     ├── README.md
-    ├── data/ (optional)
+   
     
 ⭐ Key Skills Demonstrated
 Large-scale data cleaning
