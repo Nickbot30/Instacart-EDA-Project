@@ -1,5 +1,6 @@
 # Instacart-EDA-Project
 Instacart Market Basket Analysis — Exploratory Data Analysis (EDA)
+
 ⭐ Project Overview
 This project explores customer purchasing behavior using the Instacart Market Basket dataset, a large collection of grocery orders.
 The goal is to understand:
@@ -9,6 +10,7 @@ What products are most popular
 How many items customers typically buy
 Patterns across days, hours, and user behavior
 This EDA demonstrates your ability to work with large datasets, perform data cleaning, and extract meaningful insights using Python and Pandas.
+
 📘 Dataset Description
 The project uses five datasets:
 orders — order metadata (time, user, order number)
@@ -17,6 +19,7 @@ products — product names and IDs
 departments — department categories
 aisles — aisle categories
 These datasets contain millions of rows, making this a strong demonstration of your ability to handle large-scale data.
+
 🧹 Data Cleaning
 Several issues were identified and resolved:
 1. Missing Values
@@ -36,6 +39,7 @@ Other datasets had no full-row duplicates
 1,257 duplicate product names (case-insensitive)
 Cleaned using .drop_duplicates()
 This cleaning ensures accurate analysis and prevents misleading results.
+
 🔍 Exploratory Data Analysis
 1. When do people shop?
 Customers shop most frequently between 9 AM and 5 PM, with peaks at:
@@ -80,17 +84,20 @@ Organic Strawberries
 Organic Whole Milk
 Organic Raspberries
 Produce dominates again, showing strong repeat demand.
+
 🛠️ Tools & Technologies
 Python
 Pandas
 Matplotlib
 Jupyter Notebook
+
 📂 Project Structure
 Code
 instacart-eda/
     ├── instacart_analysis.ipynb
     ├── README.md
     ├── data/ (optional)
+    
 ⭐ Key Skills Demonstrated
 Large-scale data cleaning
 Handling missing values
@@ -100,11 +107,13 @@ Data visualization
 Customer behavior analysis
 Product-level insights
 Working with multi-table relational datasets
+
 ▶️ How to Run
 Clone the repository
 Open the notebook in Jupyter or VS Code
 Ensure datasets are placed in the correct directory
 Run all cells sequentially
+
 ⭐ Future Improvements
 Add heatmaps for hour/day combinations
 Build a dashboard (Tableau or Power BI)
